@@ -1,5 +1,4 @@
 "use client"
-
 import React, { useState, useRef, useEffect } from 'react';
 import Link from "next/link";
 
@@ -22,6 +21,10 @@ export default function NavBar() {
     if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
       setIsMenuOpen(false);
     }
+  };
+
+  const handleLinkClick = () => {
+    setIsMenuOpen(false); // Cierra el menú al hacer clic en un enlace
   };
 
   useEffect(() => {
@@ -83,29 +86,29 @@ export default function NavBar() {
 
           <ul
             ref={menuRef}
-            className={`${isMenuOpen ? 'block bg-neutral-900  p-4  rounded-sm absolute right-[1.8rem] top-2  z-50' : 'hidden'} md:flex gap-x-10 text-white`}
+            className={`${isMenuOpen ? 'block bg-neutral-900  p-4  rounded-sm absolute right-[1.8rem] top-2  z-50' : 'hidden'} md:flex sm:flex-col md:flex-row lg:flex-row gap-y-2 gap-x-10 text-white`}
           >
-            <li>
+            <li onClick={handleLinkClick}> {/* Agrega un manejador de eventos para cerrar el menú */}
               <Link href="#home" className="text-orange-200 text-sm">
                 <p>Home</p>
               </Link>
             </li>
-            <li>
+            <li onClick={handleLinkClick}> {/* Agrega un manejador de eventos para cerrar el menú */}
               <Link href="#about" className="text-sm">
                 <p>About me</p>
               </Link>
             </li>
-            <li>
+            <li onClick={handleLinkClick}> {/* Agrega un manejador de eventos para cerrar el menú */}
               <Link href="#work" className="text-sm">
                 <p>Work</p>
               </Link>
             </li>
-            <li>
+            <li onClick={handleLinkClick}> {/* Agrega un manejador de eventos para cerrar el menú */}
               <Link href="#stack" className="text-sm">
                 <p>Skills</p>
               </Link>
             </li>
-            <li>
+            <li onClick={handleLinkClick}> {/* Agrega un manejador de eventos para cerrar el menú */}
               <Link href="#contact" className="text-sm">
                 <p>Hire me</p>
               </Link>

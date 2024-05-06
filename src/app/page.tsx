@@ -17,10 +17,10 @@ export default function Home() {
   return (
     <div className=" w-full bg-stone-950  flex flex-col relative z-40 p-0 py-5 md:p-11">
       <div className="w-full border-t-2 flex-col sm:flex-col md:flex md:flex-col lg:flex lg:flex-row border-t-orange-300">
-        <div className="w-[100%] sm:w-[100%] md:w-full lg:w-1/2 flex flex-col  p-2 md:p-10 ">
-        <div className="text-xl md:text-xl lg:text-2xl  xl:text-3xl text-white font-bold mb-2 px-11 py-4">Dashboard for Data Visualization</div>
-          <div className="text-2md md:text-2md lg:text-lg  xl:text-xl text-white mb-2 px-11 py-4">Freelance FullStack Developer [React / Python]</div>
-          <div className='text-neutral-400 leading-6 text-md mb-2 w-full md:w-[100%] px-11'>
+        <div className="w-[100%] sm:w-[100%] md:w-full lg:w-1/2 flex flex-col  p-0 md:p-10 ">
+        <div className="text-xl md:text-xl lg:text-2xl  xl:text-3xl text-white font-bold mb-2 px-3 md:px-11 py-4">Dashboard for Data Visualization</div>
+          <div className="text-2md md:text-2md lg:text-lg  xl:text-xl text-white mb-2 px-3 md:px-11 py-4">Freelance FullStack Developer [React / Python]</div>
+          <div className='text-neutral-400 leading-6 text-md mb-2 w-full md:w-[100%] px-3 md:px-11'>
           I developed a web application for a prominent company in Colombia to manage and visualize client information,
           incorporating user creation and permission management features. The data originates from an API of mechanical
           vibration meters or sensors.
@@ -30,7 +30,7 @@ export default function Home() {
           programming skills in both Backend and Frontend development.
           </div>
         </div>
-        <div className="w-full sm:w-full md:w-full lg:w-1/2  sm:p-10 text-white p-12 grid gap-5  grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 place-items-center">
+        <div className="w-full sm:w-full md:w-full lg:w-1/2  sm:p-10 text-white  p-6 md:p-12 grid gap-5  grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 place-items-center">
           <Image
             src={dash1}
             width={350}
@@ -95,16 +95,16 @@ export default function Home() {
       </div> 
       
       <div className="w-full border-t-2 flex-col sm:flex-col md:flex md:flex-col lg:flex lg:flex-row border-t-orange-300">
-        <div className="w-[100%] sm:w-[100%] md:w-full lg:w-1/2 flex flex-col  p-2 md:p-10 "> 
-        <div className="text-xl md:text-xl lg:text-2xl  xl:text-3xl text-white font-bold mb-2 px-11 py-4">Data visualization for Gasifier System</div>
+        <div className="w-[100%] sm:w-[100%] md:w-full lg:w-1/2 flex flex-col  p-0 md:p-10 "> 
+        <div className="text-xl md:text-xl lg:text-2xl  xl:text-3xl text-white font-bold mb-2 px-3 md:px-11 py-4">Data visualization for Gasifier System</div>
 
-          <div className="text-2md md:text-2md lg:text-lg  xl:text-xl text-white mb-2 px-11 py-4">Freelance FullStack Developer [React / Python] </div>
-          <div className='text-neutral-400 leading-6 text-md mb-2 w-full md:w-[100%] px-11'>
+          <div className="text-2md md:text-2md lg:text-lg  xl:text-xl text-white mb-2 px-3 md:px-11 py-4">Freelance FullStack Developer [React / Python] </div>
+          <div className='text-neutral-400 leading-6 text-md mb-2 w-full md:w-[100%] px-3 md:px-11'>
           The project involved the integration of 5 high-temperature thermocouples into a gasification system's five stages. Using an analog-to-RS485 converter, temperature data was extracted from each stage. Subsequently, I developed a local API hosted on a Debian-based Raspberry Pi to serve an internal web page. This web page allowed users to monitor real-time temperature fluctuations across the five stages and provided the capability to download historical data in CSV format for future analysis.
 
           </div>
         </div>
-        <div className="w-full sm:w-full md:w-full lg:w-1/2  sm:p-10 text-white p-12 grid gap-5  grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1 place-items-center">
+        <div className="w-full sm:w-full md:w-full lg:w-1/2  sm:p-10 text-white p-6 md:p-12 grid gap-5  grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1 place-items-center">
           <Image
             src={gas1}
             width={450}

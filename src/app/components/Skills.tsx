@@ -14,7 +14,7 @@ import aws from './assets/aws.png'
 
 export default function Skills() {
   return (
-    <div className=" w-full bg-neutral-800 relative z-40 p-10 md:p-12 grid gap-7 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 place-items-center">
+    <div className=" w-full bg-neutral-800 relative z-40 px-10 md:p-12 grid gap-7 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 place-items-center">
         <div className='flex flex-col justify-center items-center'>
             <Image
                 src={python}
@@ -22,6 +22,7 @@ export default function Skills() {
                 height={100}
                 alt="Picture of the author MaoDev"
                 style={{objectFit: "contain"}}
+                className="w-12 sm:w-24 h-12 sm:h-24"
             />
             <div className='mt-3 text-zinc-400 text-xl font-semibold'>Python</div>
         </div>
@@ -32,6 +33,7 @@ export default function Skills() {
                 height={100}
                 alt="Picture of the author MaoDev"
                 style={{objectFit: "contain"}}
+                className="w-12 sm:w-24 h-12 sm:h-24"
             />
             <div className='mt-3 text-zinc-400 text-xl font-semibold'>TypeScript</div>
         </div>
@@ -42,6 +44,7 @@ export default function Skills() {
                 height={100}
                 alt="Picture of the author MaoDev"
                 style={{objectFit: "contain"}}
+                className="w-12 sm:w-24 h-12 sm:h-24"
             />
             <div className='mt-3 text-zinc-400 text-xl font-semibold'>HTML</div>
         </div>
@@ -52,6 +55,7 @@ export default function Skills() {
                 height={100}
                 alt="Picture of the author MaoDev"
                 style={{objectFit: "contain"}}
+                className="w-12 sm:w-24 h-12 sm:h-24"
             />
             <div className='mt-3 text-zinc-400 text-xl font-semibold'>React</div>
         </div>
@@ -62,6 +66,7 @@ export default function Skills() {
                 height={100}
                 alt="Picture of the author MaoDev"
                 style={{objectFit: "contain"}}
+                className="w-12 sm:w-24 h-12 sm:h-24"
             />
             <div className='mt-3 text-zinc-400 text-xl font-semibold'>Git</div>
         </div>
@@ -72,6 +77,7 @@ export default function Skills() {
                 height={100}
                 alt="Picture of the author MaoDev"
                 style={{objectFit: "contain"}}
+                className="w-12 sm:w-24 h-12 sm:h-24"
             />
             <div className='mt-3 text-zinc-400 text-xl font-semibold'>Tailwind</div>
         </div>
@@ -82,6 +88,7 @@ export default function Skills() {
                 height={100}
                 alt="Picture of the author MaoDev"
                 style={{objectFit: "contain"}}
+                className="w-12 sm:w-24 h-12 sm:h-24"
             />
             <div className='mt-3 text-zinc-400 text-xl font-semibold'>Linux</div>
         </div>
@@ -92,6 +99,7 @@ export default function Skills() {
                 height={100}
                 alt="Picture of the author MaoDev"
                 style={{objectFit: "contain"}}
+                className="w-12 sm:w-24 h-12 sm:h-24"
             />
             <div className='mt-3 text-zinc-400 text-xl font-semibold'>JavaScript</div>
         </div>
@@ -102,6 +110,7 @@ export default function Skills() {
                 height={100}
                 alt="Picture of the author MaoDev"
                 style={{objectFit: "contain"}}
+                className="w-12 sm:w-24 h-12 sm:h-24"
             />
             <div className='mt-3 text-zinc-400 text-xl font-semibold'>Bootstrap</div>
         </div>
@@ -112,6 +121,7 @@ export default function Skills() {
                 height={100}
                 alt="Picture of the author MaoDev"
                 style={{objectFit: "contain"}}
+                className="w-12 sm:w-24 h-12 sm:h-24"
             />
             <div className='mt-3 text-zinc-400 text-xl font-semibold'>Next Js</div>
         </div>
@@ -122,6 +132,7 @@ export default function Skills() {
                 height={100}
                 alt="Picture of the author MaoDev"
                 style={{objectFit: "contain"}}
+                className="w-12 sm:w-24 h-12 sm:h-24"
             />
             <div className='mt-3 text-zinc-400 text-xl font-semibold'>aws</div>
         </div>

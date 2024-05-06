@@ -13,7 +13,7 @@ export default function About() {
     };
     
     return (
-        <div className="w-full bg-neutral-900 p-11 lg:p-0 flex flex-col lg:flex-row relative z-40" id='about'>
+        <div className="w-full bg-neutral-900 p-0 sm:p-2 md:p-11 lg:p-0 flex flex-col lg:flex-row relative z-40" id='about'>
             {/* Contenedor de "About Me" */}
             <div className="hidden lg:flex lg:w-1/4 md:flex-col items-end justify-center px-12">
                 <div>
@@ -62,7 +62,7 @@ export default function About() {
             {/* Contenedor de la descripción */}
             <div className="w-full lg:w-2/4 px-4 py-11">
                     <div className='text-zinc-400 tracking-[18px] mb-3 text-xl'>WHO AM I</div>
-                    <div className='text-white text-4xl font-semibold bg-orange-300 inline-block mb-10 p-2 '>MAURO URIBE.</div>
+                    <div className='text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold bg-orange-300 inline-block mb-10 p-2 '>MAURO URIBE.</div>
                     <div className='text-white text-xl mb-3'>Professional Web Developer</div>
                     <div className='text-neutral-400 leading-6 text-md mb-2 w-full md:w-[85%]'>
                     I am an electromechanical engineer CUM LAUDE who found his passion in programming and its immediacy and ease to develop tangible and real projects. 

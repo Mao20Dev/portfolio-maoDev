@@ -22,11 +22,11 @@ export default function page() {
     return (
     <div className=" w-full bg-stone-950  flex flex-col relative z-40 p-0 py-5 md:p-11">
         <div className="w-full border-t-2 flex-col sm:flex-col md:flex md:flex-col lg:flex lg:flex-row border-t-orange-300">
-        <div className="w-[100%] sm:w-[100%] md:w-full lg:w-1/2 flex flex-col  p-2 md:p-10 "> 
-        <div className="text-xl md:text-xl lg:text-2xl  xl:text-3xl text-white font-bold mb-2 px-11 py-4">Movies / Series / Anime site</div>
+        <div className="w-[100%] sm:w-[100%] md:w-full lg:w-1/2 flex flex-col  p-0 md:p-10 "> 
+        <div className="text-xl md:text-xl lg:text-2xl  xl:text-3xl text-white font-bold mb-2 px-3 md:px-11 py-4">Movies / Series / Anime site</div>
 
-          <div className="text-2md md:text-2md lg:text-lg  xl:text-xl text-white mb-2 px-11 py-4">React / Python Freelance Developer </div>
-          <div className='text-neutral-400 leading-6 text-md mb-2 w-full md:w-[100%] px-11'>
+          <div className="text-2md md:text-2md lg:text-lg  xl:text-xl text-white mb-2 px-3 md:px-11 py-4">React / Python Freelance Developer </div>
+          <div className='text-neutral-400 leading-6 text-md mb-2 w-full md:w-[100%] px-3 md:px-11'>
           I developed a movie website following a design created by a UI/UX developer. In this project, I leveraged my React
         expertise, my proficiency in native CSS, and incorporated components from React Bootstrap. Additionally, I designed
         and implemented the API to fetch and deliver data to the frontend. To populate this API, I employed web scraping
@@ -34,7 +34,7 @@ export default function page() {
 
           </div>
         </div>
-        <div className="w-full sm:w-full md:w-full lg:w-1/2  sm:p-10 text-white p-12 grid gap-5  grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-1 xl:grid-cols-1 place-items-center">
+        <div className="w-full sm:w-full md:w-full lg:w-1/2  sm:p-10 text-white  p-6 md:p-12 grid gap-5  grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-1 xl:grid-cols-1 place-items-center">
           <Image
             src={dash1}
             width={450}
@@ -96,15 +96,15 @@ export default function page() {
         </div>
 
         <div className="w-full border-t-2 flex-col sm:flex-col md:flex md:flex-col lg:flex lg:flex-row border-t-orange-300">
-        <div className="w-[100%] sm:w-[100%] md:w-full lg:w-1/2 flex flex-col  p-2 md:p-10 "> 
-        <div className="text-xl md:text-xl lg:text-2xl  xl:text-3xl text-white font-bold mb-2 px-11 py-4">Local Platform for Datalogger</div>
+        <div className="w-[100%] sm:w-[100%] md:w-full lg:w-1/2 flex flex-col  p-0 md:p-10 "> 
+        <div className="text-xl md:text-xl lg:text-2xl  xl:text-3xl text-white font-bold mb-2 px-3 md:px-11 py-4">Local Platform for Datalogger</div>
 
-          <div className="text-2md md:text-2md lg:text-lg  xl:text-xl text-white mb-2 px-11 py-4">React Developer </div>
-          <div className='text-neutral-400 leading-6 text-md mb-2 w-full md:w-[100%] px-11'>
+          <div className="text-2md md:text-2md lg:text-lg  xl:text-xl text-white mb-2 px-3 md:px-11 py-4">React Developer </div>
+          <div className='text-neutral-400 leading-6 text-md mb-2 w-full md:w-[100%] px-3 md:px-11'>
           I independently manage the frontend development of a web page tailored for configuring and visualizing data from a datalogger, catering to a variety of sensor types. Utilizing React and the MUI MATERIAL component library, I ensure an intuitive user interface and seamless handling of sensor data.
           </div>
         </div>
-        <div className="w-full sm:w-full md:w-full lg:w-1/2  sm:p-10 text-white p-12 grid gap-5  grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-1 xl:grid-cols-1 place-items-center">
+        <div className="w-full sm:w-full md:w-full lg:w-1/2  sm:p-10 text-white p-6 md:p-12 grid gap-5  grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-1 xl:grid-cols-1 place-items-center">
           <Image
             src={dat1}
             width={450}
@@ -149,16 +149,16 @@ export default function page() {
         </div>
 
         <div className="w-full border-t-2 flex-col sm:flex-col md:flex md:flex-col lg:flex lg:flex-row border-t-orange-300">
-        <div className="w-[100%] sm:w-[100%] md:w-full lg:w-1/2 flex flex-col  p-2 md:p-10 "> 
-        <div className="text-xl md:text-xl lg:text-2xl  xl:text-3xl text-white font-bold mb-2 px-11 py-4">Website for download Data from Kunak Device</div>
+        <div className="w-[100%] sm:w-[100%] md:w-full lg:w-1/2 flex flex-col  p-0 md:p-10 "> 
+        <div className="text-xl md:text-xl lg:text-2xl  xl:text-3xl text-white font-bold mb-2 px-3 md:px-11 py-4">Website for download Data from Kunak Device</div>
 
-          <div className="text-2md md:text-2md lg:text-lg  xl:text-xl text-white mb-2 px-11 py-4">React  Developer </div>
-          <div className='text-neutral-400 leading-6 text-md mb-2 w-full md:w-[100%] px-11'>
+          <div className="text-2md md:text-2md lg:text-lg  xl:text-xl text-white mb-2 px-3 md:px-11 py-4">React  Developer </div>
+          <div className='text-neutral-400 leading-6 text-md mb-2 w-full md:w-[100%] px-3 md:px-11'>
           I developed a web page deployed on a Debian-based Raspberry Pi, designed specifically to extract data directly from Kunak devices, a leading Spanish company in the environmental sector. The webpage enables seamless downloading of information, enhancing accessibility and data management efficiency.
 
           </div>
         </div>
-        <div className="w-full sm:w-full md:w-full lg:w-1/2  sm:p-10 text-white p-12 grid gap-5  grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-1 xl:grid-cols-1 place-items-center">
+        <div className="w-full sm:w-full md:w-full lg:w-1/2  sm:p-10 text-white p-6 md:p-12 grid gap-5  grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-1 xl:grid-cols-1 place-items-center">
           <Image
             src={kun1}
             width={450}
