@@ -3,6 +3,12 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Link from "next/link";
 
+declare global {
+  interface Window {
+    lastScrollTop: number;
+  }
+}
+
 export default function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrollingDown, setIsScrollingDown] = useState(false);
@@ -13,7 +19,7 @@ export default function NavBar() {
   };
 
   const handleClickOutside = (event:any) => {
-    if (menuRef.current && !menuRef.current.contains(event.target)) {
+    if (menuRef.current  ) {
       setIsMenuOpen(false);
     }
   };
