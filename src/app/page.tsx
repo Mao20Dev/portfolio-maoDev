@@ -1,113 +1,153 @@
 import Image from "next/image";
+import { ImageGrid } from "./components/ImageGrid";
+import dash1 from './components/assets/dashboard1.png'
+import dash2 from './components/assets/dashboard2.png'
+import dash3 from './components/assets/dashboard3.png'
+import dash4 from './components/assets/dashboard4.png'
+import dash5 from './components/assets/dashboard5.png'
+import dash6 from './components/assets/dashboard6.png'
+import dash7 from './components/assets/dashboard7.png'
+
+import gas1 from './components/assets/gas1.jpg'
+import gas2 from './components/assets/gas2.jpg'
+import gas3 from './components/assets/gas3.jpg'
+import gas4 from './components/assets/gas4.jpg'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:size-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <div className=" w-full bg-stone-950  flex flex-col relative z-40 p-0 py-5 md:p-11">
+      <div className="w-full border-t-2 flex-col sm:flex-col md:flex md:flex-col lg:flex lg:flex-row border-t-orange-300">
+        <div className="w-[100%] sm:w-[100%] md:w-full lg:w-1/2 flex flex-col  p-2 md:p-10 ">
+        <div className="text-xl md:text-xl lg:text-2xl  xl:text-3xl text-white font-bold mb-2 px-11 py-4">Dashboard for Data Visualization</div>
+          <div className="text-2md md:text-2md lg:text-lg  xl:text-xl text-white mb-2 px-11 py-4">Freelance FullStack Developer [React / Python]</div>
+          <div className='text-neutral-400 leading-6 text-md mb-2 w-full md:w-[100%] px-11'>
+          I developed a web application for a prominent company in Colombia to manage and visualize client information,
+          incorporating user creation and permission management features. The data originates from an API of mechanical
+          vibration meters or sensors.
+          I implemented a CRUD functionality using a Lambda function with API Gateway to interact with the data stored in
+          DynamoDB. User authentication is facilitated through Auth0. The web application is constructed with React and utilizes
+          the widely-used Material-UI component library (MUI). This project afforded me the opportunity to leverage my
+          programming skills in both Backend and Frontend development.
+          </div>
         </div>
-      </div>
+        <div className="w-full sm:w-full md:w-full lg:w-1/2  sm:p-10 text-white p-12 grid gap-5  grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 place-items-center">
+          <Image
+            src={dash1}
+            width={350}
+            height={350}
+            alt="Picture of the author MaoDev"
+            style={{objectFit: "contain"}}
+            className="w-[98%] sm:w-[90%]" 
+          />
+          <Image
+            src={dash2}
+            width={350}
+            height={350}
+            alt="Picture of the author MaoDev"
+            style={{objectFit: "contain"}}
+          
+            className="w-[98%] sm:w-[90%]"
+          />
+          <Image
+            src={dash3}
+            width={350}
+            height={350}
+            alt="Picture of the author MaoDev"
+            style={{objectFit: "contain"}}
+            className="w-[98%] sm:w-[90%]" 
+          />
+          <Image
+            src={dash4}
+            width={350}
+            height={350}
+            alt="Picture of the author MaoDev"
+            style={{objectFit: "contain"}}
+            className="w-[98%] sm:w-[90%]" 
+          />
+          <Image
+            src={dash5}
+            width={350}
+            height={350}
+            alt="Picture of the author MaoDev"
+            style={{objectFit: "contain"}}
+            className="w-[98%] sm:w-[90%]" 
+          />
+          <Image
+            src={dash6}
+            width={350}
+            height={350}
+            alt="Picture of the author MaoDev"
+            style={{objectFit: "contain"}}
+            className="w-[98%] sm:w-[90%]" 
+          />
+          <Image
+            src={dash7}
+            width={350}
+            height={350}
+            alt="Picture of the author MaoDev"
+            style={{objectFit: "contain"}}
+            className="w-[98%] sm:w-[90%]" 
+          />
 
-      <div className="relative z-[-1] flex place-items-center before:absolute before:h-[300px] before:w-full before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 sm:before:w-[480px] sm:after:w-[240px] before:lg:h-[360px]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
 
-      <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
+          {/* <ImageGrid /> */}
+        </div>
+      </div> 
+      
+      <div className="w-full border-t-2 flex-col sm:flex-col md:flex md:flex-col lg:flex lg:flex-row border-t-orange-300">
+        <div className="w-[100%] sm:w-[100%] md:w-full lg:w-1/2 flex flex-col  p-2 md:p-10 "> 
+        <div className="text-xl md:text-xl lg:text-2xl  xl:text-3xl text-white font-bold mb-2 px-11 py-4">Data visualization for Gasifier System</div>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
+          <div className="text-2md md:text-2md lg:text-lg  xl:text-xl text-white mb-2 px-11 py-4">Freelance FullStack Developer [React / Python] </div>
+          <div className='text-neutral-400 leading-6 text-md mb-2 w-full md:w-[100%] px-11'>
+          The project involved the integration of 5 high-temperature thermocouples into a gasification system's five stages. Using an analog-to-RS485 converter, temperature data was extracted from each stage. Subsequently, I developed a local API hosted on a Debian-based Raspberry Pi to serve an internal web page. This web page allowed users to monitor real-time temperature fluctuations across the five stages and provided the capability to download historical data in CSV format for future analysis.
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Explore starter templates for Next.js.
-          </p>
-        </a>
+          </div>
+        </div>
+        <div className="w-full sm:w-full md:w-full lg:w-1/2  sm:p-10 text-white p-12 grid gap-5  grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1 place-items-center">
+          <Image
+            src={gas1}
+            width={450}
+            height={350}
+            alt="Picture of the author MaoDev"
+            style={{objectFit: "contain"}}
+            
+            className="w-[98%] sm:w-[90%]" 
+          />
+          <Image
+            src={gas2}
+            width={450}
+            height={350}
+            alt="Picture of the author MaoDev"
+            style={{objectFit: "contain"}}
+            className="w-[98%] sm:w-[90%]"
+          />
+          {/* <Image
+            src={gas3}
+            width={450}
+            height={350}
+            alt="Picture of the author MaoDev"
+            style={{objectFit: "contain"}}
+            
+            className="w-[98%] sm:w-[90%]" 
+          /> */}
+          <Image
+            src={gas4}
+            width={450}
+            height={350}
+            alt="Picture of the author MaoDev"
+            style={{objectFit: "contain"}}
+            
+            className="w-[98%] sm:w-[90%]" 
+          />
+          
+          
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-balance text-sm opacity-50">
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+
+          {/* <ImageGrid /> */}
+        </div>
+        </div>
+      
+    </div>
   );
 }
