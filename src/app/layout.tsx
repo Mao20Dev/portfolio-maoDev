@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <ViewTransitions>
     <html lang="en" style={{scrollBehavior:'smooth'}}>
-      <body className={`${inter.className} bg-black `} id="home">
+      <body className={`${inter.className} bg-black w-full`} id="home">
         <NavBar />
         <Banner />
         <About />

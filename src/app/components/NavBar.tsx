@@ -12,14 +12,14 @@ declare global {
 export default function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrollingDown, setIsScrollingDown] = useState(false);
-  const menuRef = useRef(null);
+  const menuRef = useRef<HTMLUListElement>(null); // Especifica el tipo de menuRef
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  const handleClickOutside = (event:any) => {
-    if (menuRef.current  ) {
+  const handleClickOutside = (event: MouseEvent) => {
+    if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
       setIsMenuOpen(false);
     }
   };

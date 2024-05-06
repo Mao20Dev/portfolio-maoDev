@@ -40,7 +40,7 @@ export function Typewriter() {
     },
   ];
   return (
-    <div className="flex flex-col items-center justify-center h-[40rem]  mt-6">
+    <div className=" flex flex-col items-center justify-center h-[40rem]  mt-6">
       <div className=" text-2xl sm:text-2xl md:text-4xl lg:text-6xl font-normal text-center text-white">
         Welcome !
       </div>
